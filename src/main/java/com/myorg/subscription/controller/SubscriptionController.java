@@ -39,6 +39,9 @@ public class SubscriptionController {
 	
 	@DeleteMapping("/subscription")
 	public String deleteSubscription(@RequestBody Subscription subscription) {
+		System.out.println("Hello, github");
 		return subScriptionObj.deleteSubscription(subscription);
+	
 	}
+	
 }
