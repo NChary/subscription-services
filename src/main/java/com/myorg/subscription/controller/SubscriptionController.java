@@ -18,7 +18,7 @@ import com.myorg.subscription.service.SubscriptionService;
 @RestController //It makes class as Controller Class
 public class SubscriptionController {
 
-	//To Autowire - interface 
+	//To Autowire - interface - chary changed
 	@Autowired // Create an object for us 
 	SubscriptionService subScriptionObj;
 	
